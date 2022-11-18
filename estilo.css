@@ -1,0 +1,98 @@
+body
+{
+     background-image: url('fondo_2.png');
+     background-size: cover;
+     padding-right:50px;
+     padding-left:50px;
+}
+
+h1.title
+{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px black;
+    color:white;
+    text-decoration: underline;
+}
+
+p
+{
+    margin-top: 20px;
+    color:white;
+    text-align: justify;
+    font-size:25px;
+    text-shadow: 3px 3px 3px black;
+    color: white;
+}
+
+p.text
+{
+    margin-top: -10px;
+    color:white;
+    text-align: center;
+    font-size:30px;
+    text-shadow: 3px 3px 3px black;
+    color: white;
+}
+
+p.text_2
+{
+    margin:30px 20px 30px 30px;
+    color:white;
+    text-align: center;
+    font-size:25px;
+    text-shadow: 3px 3px 3px black;
+    color: white;
+}
+
+@media screen and (max-width: 1000px)
+{
+    body
+{
+     background-image: url('fondo_2.png');
+     background-size: cover;
+     padding-right:10px;
+     padding-left:10px;
+}
+
+h1.title
+{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px black;
+    color:white;
+    text-decoration: underline;
+}
+
+p
+{
+    margin-top: 0px;
+    color:white;
+    text-align: justify;
+    font-size:15px;
+    text-shadow: 3px 3px 3px black;
+    color: white;
+}
+
+p.text
+{
+    margin-top: -10px;
+    color:white;
+    text-align: center;
+    font-size:15px;
+    text-shadow: 3px 3px 3px black;
+    color: white;
+}
+
+p.text_2
+{
+    margin:30px 20px 30px 30px;
+    color:white;
+    text-align: center;
+    font-size:15px;
+    text-shadow: 3px 3px 3px black;
+    color: white;
+}
+}
